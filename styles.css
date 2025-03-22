@@ -11,13 +11,13 @@ body{
 p,h1, input, button{
     padding: 10px;
     margin: 15px 0;
+    text-align: center;
     font-family: "Montserrat", serif;
 }
 
 input{
     font-size: 20px;
     font-weight: 600;
-    
 }
 
 .box{
@@ -56,4 +56,172 @@ span{
     color: #E9031B;
     text-decoration: underline;
     cursor: pointer;
+}
+
+button:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid #3F72EC;
+}
+
+@media (max-width: 630px){
+
+    p,h1, input, button{
+        padding: 5px;
+        margin: 10px 0;
+    }
+
+    h1{
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 13px;
+    }
+
+    input{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .box{
+        padding: 20px;
+    }
+
+    .row>input{
+        width: 30px;
+        height: 30px;
+    }
+
+    .buttons{
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 450px){
+
+    p,h1, input, button{
+        margin: 8px 0;
+    }
+
+    h1{
+        font-size: 16px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+
+    input{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .box{
+        padding: 15px;
+    }
+
+    .row>input{
+        width: 26px;
+        height: 26px;
+    }
+
+    .buttons{
+        gap: 15px;
+    }
+    
+}
+
+@media (max-width: 400px){
+
+    p,h1, input, button{
+        margin: 8px 0;
+    }
+
+    input{
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .box{
+        padding: 10px;
+    }
+
+    h1{
+        font-size: 14px;
+    }
+
+    p{
+        font-size: 11px;
+    }
+
+    .row{
+        width: 60%;
+        border: 1px solid;
+        text-align: center;
+        margin: auto;
+    }
+
+    .row>input{
+        width: 30px;
+        height: 30px;
+    }
+
+    .buttons{
+        gap: 15px;
+    }
+
+    button{
+        width: 60px;
+        font-size: 9px;
+    }
+    
+}
+
+@media (max-width: 360px){
+
+    p,h1, input, button{
+        margin: 6px 0;
+    }
+
+    input{
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+    .box{
+        padding: 10px;
+    }
+
+    h1{
+        font-size: 13px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .row{
+        width: 55%;
+        border: 1px solid;
+        text-align: center;
+        margin: auto;
+    }
+
+    .row>input{
+        width: 20px;
+        height: 20px;
+    }
+
+    .buttons{
+        gap: 15px;
+    }
+
+    button{
+        width: 60px;
+        font-size: 9px;
+    }
+    
 }
